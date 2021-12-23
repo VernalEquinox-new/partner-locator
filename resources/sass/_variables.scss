@@ -1,0 +1,38 @@
+// Colors
+$body-bg: #f2f2f2;
+$secondary-color: #fff;
+$accent-color: #0068DA;
+$card-text-color: #354556;
+$divider-color: #DCDEE0;
+
+
+// Typography
+$font-family-sans-serif: 'Open Sans', sans-serif;
+$font-size-base: 1rem;
+$font-size-mobile: 14px;
+$line-height-base: 2;
+
+//misc
+$border-radius: 5px;
+
+//set bootstrap variables
+$form-select-indicator: url("/img/arrow.svg");
+$container-padding-x: 0;
+$input-btn-focus-box-shadow: none;
+$form-select-focus-border-color: $secondary-color;
+$input-border-color: $secondary-color;
+$input-bg: $secondary-color;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 767px,
+  lg: 992px,
+  xl: 1260px,
+  xxl: 1400px
+);
+
+
+//breakpoints
+$desktop: 1260px; //min-width
+$mobile: 767px; //max-width

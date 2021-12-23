@@ -1,0 +1,58 @@
+@include media-breakpoint-down(md) {
+  body {
+    font: {
+      size: $font-size-mobile;
+    }
+  }
+  .filter {
+    padding: 50px 0 65px 0;
+  }
+  .text {
+    max-width: 293px;
+    margin-bottom: 40px;
+    &__large {
+      font-size: 30px;
+      line-height: 40px;
+      margin-bottom: 27px;
+    }
+  }
+  .filter__form {
+    width: 288px;
+  }
+  .input-group {
+    input.search-input::placeholder {
+      font-size: 15px;
+      line-height: 32px;
+    }
+  }
+  .select-group {
+    width: 100%;
+    margin: 0 auto;
+
+    .dropdown {
+      &:nth-child(2) {
+        margin: 8px 0;
+      }
+      button {
+        width: 100%;
+      }
+    }
+  }
+  div.card {
+    width: 288px;
+    &-body {
+      padding: 40px 11px 33px 24px;
+    }
+    .partner {
+      &__company {
+        margin: 40px 0 13.5px 0;
+      }
+      &__address {
+        line-height: 21px;
+      }
+      &__divider {
+        margin: 24px 0;
+      }
+    }
+  }
+}

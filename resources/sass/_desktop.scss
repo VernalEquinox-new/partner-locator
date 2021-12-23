@@ -1,0 +1,61 @@
+@include media-breakpoint-up(xl) {
+  .nav {
+    img {
+      margin-left: 120px;
+    }
+  }
+  .filter {
+    padding: 120px 0;
+  }
+  .text {
+    margin-bottom: 48px;
+    &__large {
+      font-size: 46px;
+      line-height: 28px;
+    }
+  }
+  .filter__form {
+    max-width: 621px;
+  }
+  .select-group {
+    display: flex;
+    .dropdown {
+      width: calc((100% - 12px) / 3);
+      &:first-child {
+        margin-right: 12px;
+      }
+      button {
+        width: 100%;
+      }
+
+      &:nth-child(2) button{
+        border: {
+          top-right-radius: 0px;
+          bottom-right-radius: 0px;
+        }
+      }
+      &:last-child button{
+        border: {
+          left: none;
+          top-left-radius: 0px;
+          bottom-left-radius: 0px;
+        }
+      }
+    }
+  }
+  div.card {
+    max-width: 1110px;
+    padding-left: 78px;
+  }
+  .partner {
+    &__address {
+      font-size: $font-size-mobile;
+      line-height: 24px;
+    }
+    &__website {
+      margin-bottom: 5.5px;
+      font-size: $font-size-mobile;
+      line-height: 32px;
+    }
+  }
+}

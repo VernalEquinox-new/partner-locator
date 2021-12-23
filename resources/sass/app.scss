@@ -1,0 +1,118 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body {
+  font: {
+    size: $font-size-base;
+    family: $font-family-sans-serif;
+    style: normal;
+  }
+  line-height: $line-height-base;
+}
+input[type="text"] {
+  background-color: $secondary-color;
+}
+.nav {
+  padding: 32px 0;
+  background-color: $secondary-color;
+  img {
+    width: 120px;
+    height: 25px;
+  }
+}
+.filter {
+  background: url('/img/bg-filter.jpg');
+  color: $secondary-color;
+  text-align: center;
+}
+p.text__large {
+  font-weight: bold;
+}
+.input-group {
+  margin-bottom: 20px;
+  background-color: $secondary-color;
+  border: {
+    size: 1px;
+    radius: $border-radius;
+  }
+  input.form-control {
+    border: none;
+  }
+  i {
+    color: $accent-color;
+  }
+}
+
+button.dropdown-toggle {
+  border: 2px solid $secondary-color;
+  border-radius: $border-radius;
+  color: $secondary-color;
+  text-align: justify;
+  font-size: 13px;
+  &:hover {
+    color: $secondary-color;
+  }
+  &::after {
+    content: none;
+  }
+}
+
+ul.dropdown-menu {
+  max-height: 300px;
+  overflow-y: scroll;
+  width: 100%;
+  color: $card-text-color;
+  font: {
+    weight: 600;
+    size: 13px;
+  }
+  line-height: 40px;
+}
+
+div.partners {
+  padding: 55px 0;
+}
+
+div.card {
+  margin-bottom: 20px;
+  color: $card-text-color;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  .partner {
+    &__company {
+      font-weight: 700;
+      font-size: 21px;
+      line-height: 32px;
+    }
+    &__divider {
+      color: $divider-color;
+    }
+    &__status {
+      font: {
+        weight: 600;
+        size: 13px;
+      }
+      line-height: 32px;
+    }
+    &__phone {
+      font-size: 13px;
+      line-height: 32px;
+    }
+  }
+}
+a {
+  color: $accent-color;
+  line-height: 32px;
+  font-size: 14px;
+}
+
+//responsive
+@import 'desktop';
+@import 'mobile';
