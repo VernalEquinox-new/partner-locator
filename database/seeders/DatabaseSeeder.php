@@ -14,5 +14,8 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // \App\Models\User::factory(10)->create();
+        $this->call(LocCountryTableSeeder::class);
+        $this->call(LocStateTableSeeder::class);
+        $this->call(PartnerLocatorTableSeeder::class);
     }
 }
