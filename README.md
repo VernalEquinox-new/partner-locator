@@ -1,6 +1,6 @@
 ## Notes
  1. The chosen stack is Laravel 8 + Vue.JS
- 2. Since the test task implicilty pointed out that there should be a layout for desktop and mobile only, there's no table layout
+ 2. Since the test task implicilty pointed out that there should be a layout for desktop and mobile only, there's no tablet layout
 
 ## Install
  1. Set your .env file params
