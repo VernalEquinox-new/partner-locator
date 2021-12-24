@@ -2,7 +2,7 @@
 1. The chosen stack is Laravel 8 + Vue.JS
 2. Since the test task implicilty pointed out that there should be a layout for desktop and mobile only, there's no table layout
 
-##Install
+## Install
 Starting project
  1. Set your .env file params
  2. Run install.sh to install all composer and npm dependencies, migrate and seed the DB
